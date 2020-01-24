@@ -51,5 +51,22 @@
 .blocktext{
 	float: right;
 	width:70%;
-	text-align: right;
+	text-align: center;
+}
+.blocktext1{
+	
+	margin-top: 5px;
+	width:100%;
+	text-align: center;
+
+}
+.blockimage1{
+	background-color: #444;
+	height:300px;
+	width:30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-left: 35%;
+	margin-top: 5px;
 }
