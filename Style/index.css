@@ -1,0 +1,88 @@
+/*
+
+Основний фіолетовий:
+
+#4F10AD
+#4D2982
+#111
+#7F44D6
+#966BD6
+
+Другорядний колір:
+
+#FFE500
+#BFB130
+#A69500
+#FFEC40
+#FFF173
+
+*/
+*{
+	
+	
+	color:#FFE500;
+}
+body{
+	background-repeat: no-repeat;
+	left:0;
+	top:0;
+
+}
+.ico{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:100px;
+	width:100px;
+	float: left;
+}
+.head{
+	background: #111;
+	height:100px;
+	width: 100%;
+	float:left;
+	text-align: center;
+}
+.head a{
+	margin-left: 3%;
+	float:none;
+}
+.ads{
+	background: #111;
+	margin-top:5px;
+	margin-left: 1%;
+	height:200px;
+	float:left;
+	width:30%;
+}
+.content{
+	background: #111;
+	min-height:800px;
+	margin-top:5px;
+	width:69%;
+	float:left;
+
+}
+.footer{
+	margin-top:5px;
+	background: #111;
+	height:200px;
+	width:100%;
+	float:left;
+}
+.text{
+	float: right;
+	background: #222;
+	width: 70%;
+	margin-top:5px;
+	height:250px;
+}
+.image{
+	float:left;
+	margin-top:5px;
+	width:30%;
+	height:250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
