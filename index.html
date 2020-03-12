@@ -2,126 +2,101 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="Style/slider.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Site Name</title>
+	<title>LightProg</title>
+	<meta name="viewport" content="width=device-width", initial-scale=1.0>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="Style/index.css">
+
 </head>
 <body>
-	<div class="head">
-		<a href="#">Home</a>
-		<a href="Pages/about.html">About</a>
-		<a href="Pages/news.html">News</a>
-		<a href="Pages/support.html">Support</a>
+	<header>
+		<div id="logo" onclick="slowScroll('#top')">
+			<span>LightProg</span>
+		</div>
+		<div id="about">
+			<a href="#" title="Можливості" onclick="slowScroll('#main')">Можливості</a>
+			<a href="#" title="Переваги" onclick="slowScroll('#overview')">Переваги</a>
+			<a href="#" title="Контакти" onclick="slowScroll('#contacts')">Контакти</a>
+			<a href="#" title="Відповіді на запитання" onclick="slowScroll('#faq')">FAQ</a>
+		</div>
+	</header>
+	<div id="top">
+ 		<h1>Програмування</h1>
+ 		<h3>Як спосіб життя</h3>
 	</div>
-	<style>
-		*{background-color: #00222bff;}
-		.art-image{
-			background-position: center;
-			background-size:cover;
-			background-repeat: no-repeat;
-			float:left;
-			width:30%;
-			height:100%;
-		}
-		.art-text{
-			float:right;
-			width:70%;
-			background-color: #004455;
-		}
-		.art{
-			background-color: #004455;
-			height:300px;
-			width:100%;
-			margin-bottom: 10px; 
-		}
-		.head{
-			background-color:#001015ff;
-			height:100px;
-			margin-bottom: 5px;
-			text-align: center;
-
-		}
-		.sli{background-position: center;
-			background-size:cover;
-			background-repeat: no-repeat;
-		width:100%;}
-		.head a{text-decoration: none; color:white; margin-left:10%;background-color:#001015ff; margin-top: 50px; font-size:18px; }
-		.footer{height:300px; margin-top: 10px;background-color: #111; }
-	</style>
-	<div class="content">
-		<h3>NEWEST</h3>
-		<div class="art">
-			<div class="art-image" style="background-image: url('Images/DgBgKQvnkiU.jpg');">
-			</div>
-			<div class="art-text" >
-
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nihil facilis nemo, dolor vel itaque minima veniam aliquam tempora magnam earum sed iste. Praesentium tempore, commodi maiores, est eligendi illum, dolorem quam, dicta sapiente quasi earum impedit. Iste ipsa, magnam praesentium sed illo repellendus illum impedit maxime. Deserunt soluta tenetur molestiae eligendi omnis autem, necessitatibus dolore qui accusamus aliquam quas est quam a ea asperiores accusantium dignissimos, illum delectus assumenda.
-			</div>
+	<div id="main">
+		<div class="intro">
+			<h2>Наші послуги поможуть вам</h2>
+			<span>Великий вибір того що вам пригодиться</span>
 		</div>
-		<div class="art">
-			<div class="art-image" style="background-image: url('Images/G81NbcFBuYc.jpg');">
-			</div>
-			<div class="art-text" >
-
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nihil facilis nemo, dolor vel itaque minima veniam aliquam tempora magnam earum sed iste. Praesentium tempore, commodi maiores, est eligendi illum, dolorem quam, dicta sapiente quasi earum impedit. Iste ipsa, magnam praesentium sed illo repellendus illum impedit maxime. Deserunt soluta tenetur molestiae eligendi omnis autem, necessitatibus dolore qui accusamus aliquam quas est quam a ea asperiores accusantium dignissimos, illum delectus assumenda.
-			</div>
+		<div class="text">
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, cum iure fugit eligendi maxime sed eaque eum obcaecati adipisci ab eveniet iste quasi explicabo possimus deserunt quia vero fugiat, nulla! Repellat, perferendis natus magnam iure impedit tenetur harum quo hic porro, unde consectetur quod accusamus perspiciatis numquam delectus ea eligendi!
+			</span>
 		</div>
-		<div class="art">
-			<div class="art-image" style="background-image: url('Images/PQqLZ4gxD1s.jpg');">
-			</div>
-			<div class="art-text" >
-
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nihil facilis nemo, dolor vel itaque minima veniam aliquam tempora magnam earum sed iste. Praesentium tempore, commodi maiores, est eligendi illum, dolorem quam, dicta sapiente quasi earum impedit. Iste ipsa, magnam praesentium sed illo repellendus illum impedit maxime. Deserunt soluta tenetur molestiae eligendi omnis autem, necessitatibus dolore qui accusamus aliquam quas est quam a ea asperiores accusantium dignissimos, illum delectus assumenda.
-			</div>
-		</div>
-		<h3>POPULAR</h3>
-		<div class="art">
-			<div class="art-image" style="background-image: url('Images/YStU4Fip498.jpg');">
-			</div>
-			<div class="art-text" >
-
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nihil facilis nemo, dolor vel itaque minima veniam aliquam tempora magnam earum sed iste. Praesentium tempore, commodi maiores, est eligendi illum, dolorem quam, dicta sapiente quasi earum impedit. Iste ipsa, magnam praesentium sed illo repellendus illum impedit maxime. Deserunt soluta tenetur molestiae eligendi omnis autem, necessitatibus dolore qui accusamus aliquam quas est quam a ea asperiores accusantium dignissimos, illum delectus assumenda.
-			</div>
-		</div>
-		<div class="art">
-			<div class="art-image" style="background-image: url('Images/PA0zrbJByzU.jpg');">
-			</div>
-			<div class="art-text" >
-
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nihil facilis nemo, dolor vel itaque minima veniam aliquam tempora magnam earum sed iste. Praesentium tempore, commodi maiores, est eligendi illum, dolorem quam, dicta sapiente quasi earum impedit. Iste ipsa, magnam praesentium sed illo repellendus illum impedit maxime. Deserunt soluta tenetur molestiae eligendi omnis autem, necessitatibus dolore qui accusamus aliquam quas est quam a ea asperiores accusantium dignissimos, illum delectus assumenda.
-			</div>
-		</div>
-		<div class="art">
-			<div class="art-image" style="background-image: url('Images/Dwu_G4g1zxY.jpg');">
-			</div>
-			<div class="art-text" >
-
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nihil facilis nemo, dolor vel itaque minima veniam aliquam tempora magnam earum sed iste. Praesentium tempore, commodi maiores, est eligendi illum, dolorem quam, dicta sapiente quasi earum impedit. Iste ipsa, magnam praesentium sed illo repellendus illum impedit maxime. Deserunt soluta tenetur molestiae eligendi omnis autem, necessitatibus dolore qui accusamus aliquam quas est quam a ea asperiores accusantium dignissimos, illum delectus assumenda.
-			</div>
-		</div>
-		<h3>GALERY</h3>
-		  <div class="slider">
-		    <div class="slider__wrapper">
-		      <div class="slider__items">
-		        <div class="slider__item">
-		          <div class="sli"style="height: 400px; background: url('Images/PsHfxukpOuE.jpg');"></div>
-		        </div>
-		        <div class="slider__item">
-		          <div class="sli"style="height: 400px; background: url('Images/-kGWNsvvKjI.jpg');"></div>
-		        </div>
-		        <div class="slider__item">
-		          <div class="sli"style="height: 400px; background: url('Images/bVi5v904UUw.jpg');"></div>
-		        </div>
-		        <div class="slider__item">
-		          <div class="sli"style="height: 400px; background: url('Images/anime.jpg');"></div>
-		        </div>
-		      </div>
-		    </div>
-		    <a class="slider__control slider__control_prev" href="#" role="button"></a>
-		    <a class="slider__control slider__control_next" href="#" role="button"></a>
-		  </div>	  
 	</div>
-	<div class="footer"></div>
+	<div id="overview">
+		<h2>Переваги</h2>
+		<h4>З нами простіше</h4>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1532975967.jpg">
+			<span>Вивчиння мови Ruby</span>
+		</div>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1532975967.jpg">
+			<span>Вивчиння мови Ruby</span>
+		</div>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1532975967.jpg">
+			<span>Вивчиння мови Ruby</span>
+		</div>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1532975967.jpg">
+			<span>Вивчиння мови Ruby</span>
+		</div>
+	</div>
+	<div id="contacts">
+		<center>
+			<h5>Зворотній зв'язок</h5>
+		</center>
+		<form id="form_input">
+			<label for="name">Ім'я<span>*</span></label><br>
+			<input type="text" placeholder="Введіть ім'я" name="name" id="name">
+			<label for="email">email<span>*</span></label><br>
+			<input type="email" placeholder="Введіть email" name="email" id="email">
+			<label for="message">Повідомлення<span>*</span></label><br>
+			<textarea type="text" placeholder="Введіть повідомлення" name="message" id="message"cols="30" rows="10"></textarea>
+			<div id="mess_send" class="btn">Надіслати</div>
+		</form>
+	</div>
+	<div id="faq">
+		<div>
+			<span class="title">Оплата</span><br>
+			<span class="heading">Як буде відбуватися оплата?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptas deserunt culpa porro rerum vitae dignissimos odio nihil et, pariatur id beatae, asperiores eaque eligendi. Ullam quae, libero quam aspernatur ducimus officia provident nemo, natus, nobis voluptate sunt porro deleniti ad? Obcaecati animi nisi doloribus laboriosam magni, quod optio, consequuntur officia voluptatem ducimus eaque explicabo inventore atque omnis laudantium sapiente aliquid, vitae fuga suscipit totam neque sed sequi nam. Reiciendis explicabo repudiandae et odio cumque nesciunt perferendis, blanditiis, debitis ad quis voluptatem ipsa. Quos inventore recusandae soluta natus nisi eius nesciunt quo, totam accusamus quaerat fuga, excepturi libero similique dolores?</p>
+		</div>
+		<div>
+			<span class="title">Інформація</span><br>
+			<span class="heading">Що входить в послуги сервіса?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptas deserunt culpa porro rerum vitae dignissimos odio nihil et, pariatur id beatae, asperiores eaque eligendi. Ullam quae, libero quam aspernatur ducimus officia provident nemo, natus, nobis voluptate sunt porro deleniti ad? Obcaecati animi nisi doloribus laboriosam magni, quod optio, consequuntur officia voluptatem ducimus eaque explicabo inventore atque omnis laudantium sapiente aliquid, vitae fuga suscipit totam neque sed sequi nam. Reiciendis explicabo repudiandae et odio cumque nesciunt perferendis, blanditiis, debitis ad quis voluptatem ipsa. Quos inventore recusandae soluta natus nisi eius nesciunt quo, totam accusamus quaerat fuga, excepturi libero similique dolores?</p>
+		</div>
+	</div>
 </body>
-<script src="JavaScript/slider.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+	function slowScroll(id){
+		$('html, body').animate({
+			scrollTop : $(id).offset().top
+		}, 500);
+	}
+	$(document).on("scroll", function(){
+		if($(window).scrollTop()===0){
+			$("header").removeClass("fixed");
+		}else{
+			$("header").attr("class","fixed");
+		}
+	})	
+
+</script>
 </html>
