@@ -99,7 +99,7 @@ header.fixed #logo{
 .fixed #about a:hover{color: #7c7c7c;}
 #top{
 	width:100%;
-	background-image:url(../Images/TJeaLbYsbsg.jpg);
+	background-image:url(TJeaLbYsbsg.jpg);
 	background-blend-mode: multiply;
 	background-color: #2e3a44;
 	background-size: cover;
@@ -175,7 +175,7 @@ header.fixed #logo{
 }
 #overview{
 	float: left;
-	background-image: url("../Images/_e0yBLrhvgo.jpg");
+	background-image: url("_e0yBLrhvgo.jpg");
 	background-blend-mode: multiply;
 	
 	background-position:center;
