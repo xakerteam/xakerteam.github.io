@@ -1,0 +1,63 @@
+body, html{
+	width:100%;
+	height:100%;
+	color:#2222;
+}
+.nav-link {
+	font-size: 1.1em !important;
+}
+.container-fluid{
+	padding-left:0 !important;
+}
+.navbar-brad img{
+	width:64px;
+
+}
+.navbar-nav li{
+	padding-right:20px;
+
+}
+.card-img-top{
+	width:100% !important;
+}
+.card{
+	width:300px;
+	margin: 10px;
+	border-color: #c3c3c3 !important;
+	border-width: 1px!important;
+
+}
+article{float:left;}
+.btn:hover{
+background: #5a6268!important;
+border-color: #5a6268 !important;
+}
+a{
+	margin: 10px;
+	color:white;
+	text-decoration: none;
+}
+@media screen and (max-width: 699px){
+	article{
+		width:95%;
+		margin-right: 2.5%
+	}
+	.card{
+		width:100%;
+	}
+}
+@media screen and (max-width: 1279px) and (min-width: 700px){
+	article{
+		width:45%;
+		margin-top:2.5%;
+		margin-left: 2.5%;
+	}
+	.card{
+		width:100%;
+	}
+}
+
+.lin{
+	float:left;
+	display: block;
+}
